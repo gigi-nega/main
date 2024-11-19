@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperos e Tradições</title>
+    <style>
+        body {
+            background-color: #ff6400;
+        }
+
+        /* Resetando alguns estilos padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo da navbar */
+        .navbar {
+            background-color: #ff6400;
+            padding: 10px 0;
+            display: left;
+            align-items: center;
+            justify-content: space-between; /* Alinha logo à esquerda e os links à direita */
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Logo */
+        #logo {
+            width: 400px;
+            height: 400px;
+        }
+
+        /* Lista de links da navbar */
+        .navbar-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-left: auto; /* Empurra os links para a direita */
+        }
+
+        /* Estilos para cada link */
+        .navbar-list li {
+            margin: 0 15px;
+        }
+
+        .navbar-list a {
+            color: #ff6400;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        /* Efeito de hover nos links */
+        .navbar-list a:hover {
+            color: #f39c12;
+        }
+
+        footer {
+            background-color: #f1bd96;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 0.8em 2em;
+            background-color: #f1bd96;
+            border: 3px solid #f1bd96;
+            border-radius: 1em;
+            color: #ff6400;
+            font-weight: bolder;
+            transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+            box-shadow: -5px 5px 0px 0px #f1bd96;
+        }
+
+        button:hover {
+            transform: translate(5px, -5px);
+        }
+.content{ background-color: #f1bd96;
+            color: black;
+            text-align: center;
+            padding: 30px;
+            margin: 50px;
+            border-radius: 30px;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+           img{border-radius: 40px;
+        height: 600px;
+    width: 700px;}
+            a{text-decoration: none;
+            color: black;}
+            
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+       <center> <img src="logo.png" alt="Logo" id="logo"></center>
+        <ul class="navbar-list">
+            <li><button><a href="index.html">Início</a></button></li>
+            <li><button><a href="sobre.html">Sobre</a></button></li>
+            <li><button><a href="receitas.html">Receitas</a></button></li>
+            <li><button><a href="contato.html">Contato</a></button></li>
+        </ul>
+    </nav>
+   <div class="content">
+   <a href="moussedelimao.html"><h1>Mousse de Limão</h1></a><br><a href="moussedelimao.html"> <img src="mousse de limão.jpg" alt=""></a>
+</div>
+<div class="content">
+    <a href="brigadeiro.html"><h1>Brigadeiro</h1></a> <br><a href="brigadeiro.html"> <img src="brigadeiro-.jpg" alt=""></a>
+</div>
+<div class="content">
+    <a href="feijoada.html"><h1>Feijoada</h1></a> <br><a href="feijoada.html"> <img src="Feijoada.jpg" alt=""></a>
+</div>
+<div class="content">
+    <a href="empadao.html"><h1>Empadão de Frango</h1></a> <br><a href="empadao.html"> <img src="empadão de frango.jpg" alt=""></a>
+</div>
+   
+    <footer>
+        <p>© 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
